@@ -344,7 +344,7 @@ Drs:AddButton({
 	Name = "ExolutionPremiumHub",
 	Callback = function()
       		print("Ativando Doors Script...")
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
   	end    
 })
 
