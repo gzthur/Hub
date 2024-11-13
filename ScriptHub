@@ -329,6 +329,30 @@ FishTab:AddButton({
     end
 })
 
+FishTab:AddButton({
+    Name = "Speed HUB ",
+    Callback = function()
+        print("Ativando Fish Uppercut Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+FishTab:AddButton({
+    Name = "Jvree HUB ",
+    Callback = function()
+        print("Ativando Fish Uppercut Script...")
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/52f3f837ed9d5c0ea86303efdb84239f.lua"))()
+    end
+})
+
+FishTab:AddButton({
+    Name = "Lythicals HUB ",
+    Callback = function()
+        print("Ativando Fish Uppercut Script...")
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/Lythicals/script/main/Fisch.lua")()
+    end
+})
+
 -- "Misc" Tab
 local configTab = Window:MakeTab({
     Name = "Misc",
