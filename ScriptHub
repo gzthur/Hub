@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "GzHub Version.01", HidePremium = false, SaveConfig = true, ConfigFolder = "GzHub"})
 
 OrionLib:MakeNotification({
-    Name = "Script Executed Yay!!",
+    Name = "Script Executado Yay!!",
     Content = "By: gzthur on Discord",
     Image = "rbxassetid://4567880251",
     Time = 5
