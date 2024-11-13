@@ -1,0 +1,379 @@
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "gzthur Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "GzHub"})
+
+OrionLib:MakeNotification({
+    Name = "Script Executed Yay!!",
+    Content = "By: gzthur on Discord",
+    Image = "rbxassetid://4567880251",
+    Time = 5
+})
+
+-- Blox Fruits Tab
+local BFTab = Window:MakeTab({
+    Name = "Blox Fruits",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local BFSection = BFTab:AddSection({
+    Name = "Blox Fruits Section"
+})
+ 
+BFTab:AddButton({
+    Name = "Redz Hub Script",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+    end    
+})
+ 
+BFTab:AddButton({
+    Name = "W-Azure Hub Script",
+    Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    end    
+})
+ 
+BFTab:AddButton({
+    Name = "Cokka Hub Script",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua"))()
+    end    
+})
+ 
+BFTab:AddButton({
+    Name = "Yatsuraa Hub Script",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/Matsunebeta.lua"))()
+    end    
+})
+ 
+-- King Legacy Tab
+local KingTab = Window:MakeTab({
+    Name = "King Legacy",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local KingSection = KingTab:AddSection({
+    Name = "King Legacy Section"
+})
+ 
+KingTab:AddButton({
+    Name = "King Legacy Zee-Hub Script",
+    Callback = function()
+        print("Ativando King Legacy Zee-Hub Script...")
+        loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
+    end
+})
+ 
+KingTab:AddButton({
+    Name = "King Legacy ArcHub Script (Need Key)",
+    Callback = function()
+        print("Ativando King Legacy ArcHub Script...")
+        getgenv().CustomDistance = 10 -- Custom Distance For Bug Can't Swipe
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+    end
+})
+ 
+-- MM2 Tab
+local MM2Tab = Window:MakeTab({
+    Name = "Murder Mystery 2",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local MM2Section = MM2Tab:AddSection({
+    Name = "Murder Mystery 2 Section"
+})
+ 
+MM2Tab:AddButton({
+    Name = "Murder Mystery 2 Yarhm Script",
+    Callback = function()
+        print("Ativando Murder Mystery 2 Yarhm Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+    end
+})
+
+local HSTab = Window:MakeTab({
+    Name = "Heaven Stand",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local HSSection = HSTab:AddSection({
+    Name = "Heaven Stand Section"
+})
+ 
+HSTab:AddButton({
+    Name = "Mandy Heaven Stand Farm",
+    Callback = function()
+        print("Ativando The Strongest Battlegrounds Uppercut Script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/FWmEcRd3"))()
+    end
+})
+ 
+-- "YBA" Tab
+local YBATab = Window:MakeTab({
+    Name = "YBA",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local YBASection = YBATab:AddSection({
+    Name = "YBA Section"
+})
+ 
+YBATab:AddButton({
+    Name = "YBA",
+    Callback = function()
+        print("Ativando YBA script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
+    end
+})
+ 
+-- The Strongest Battlegrounds Tab
+local TsbTab = Window:MakeTab({
+    Name = "The Strongest Battlegrounds",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local TsbSection = TsbTab:AddSection({
+    Name = "The Strongest Battlegrounds Section"
+})
+ 
+TsbTab:AddButton({
+    Name = "The Strongest Battlegrounds Uppercut Button",
+    Callback = function()
+        print("Ativando The Strongest Battlegrounds Uppercut Script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/TByAQgT6"))()
+    end
+})
+ 
+-- Weak Legacy 2 Tab
+local Wk2Tab = Window:MakeTab({
+    Name = "Weak Legacy 2",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local Wk2Section = Wk2Tab:AddSection({
+    Name = "Weak Legacy 2 Section"
+})
+ 
+Wk2Tab:AddButton({
+    Name = "Weak Legacy 2 One Shot Script",
+    Callback = function()
+        print("Ativando Weak Legacy 2 One Shot Script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/TxQFmeQk"))()
+    end
+})
+ 
+Wk2Tab:AddButton({
+    Name = "Weak Legacy 2 Farm Script",
+    Callback = function()
+        print("Ativando Weak Legacy 2 Farm Script...")
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Weak-Legacy-2-RELEASE-Tora-Script-crack-and-source-leak-16767"))()
+    end
+})
+ 
+local bbTab = Window:MakeTab({
+    Name = "Ball Blade",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local bbSection = bbTab:AddSection({
+    Name = "Ball Blade Section"
+})
+ 
+bbTab:AddButton({
+    Name = "Ball Blade Script",
+    Callback = function()
+        print("Ativando Demonfall script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+    end
+})
+ 
+-- "Demonfall" Tab
+local DemoTab = Window:MakeTab({
+    Name = "Demonfall",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local DemoSection = DemoTab:AddSection({
+    Name = "Demonfall section"
+})
+ 
+DemoTab:AddButton({
+    Name = "Demonfall Script",
+    Callback = function()
+        print("Ativando Demonfall script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/algumacoisa/c8de05d805f56ce38ae2768e77132780e6aabac4/sla"))()
+    end
+})
+ 
+DemoTab:AddButton({
+    Name = "Demonfall Dupe Item Script",
+    Callback = function()
+        print("Ativando Demonfall script...")
+        loadstring(game: HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Demonfall",true))()
+    end
+})
+ 
+-- "Aimbot" Tab
+local aimTab = Window:MakeTab({
+    Name = "Aimbot",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local aimSection = aimTab:AddSection({
+    Name = "Aim Lock Section"
+})
+ 
+aimTab:AddButton({
+    Name = "Aim Lock Script (for BattleGrounds)",
+    Callback = function()
+        print("Ativando Aim Lock script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/0DV8R7RQ"))()
+    end
+})
+ 
+aimTab:AddButton({
+    Name = "Aim Lock Script (for FPS)",
+    Callback = function()
+        print("Ativando Aim Lock script...")
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/natoloe009/SCRIPT-ROBLOX/main/Aimbot%20%2B%20fov'),true))()
+    end
+})
+ 
+aimTab:AddButton({
+    Name = "Owl Hub",
+    Callback = function()
+        print("Ativando Owl Hub Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+    end
+})
+ 
+aimTab:AddButton({
+    Name = "Shiftlock (Activate the game's shiftlock is bad)",
+    Callback = function()
+        print("Ativando Demonfall script...")
+        loadstring(game:HttpGet('https://pastebin.com/raw/CjNsnSDy'))()
+    end
+})
+ 
+local funkyTab = Window:MakeTab({
+    Name = "Funky Friday",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local funkySection = funkyTab:AddSection({
+    Name = "Funky Friday Section"
+})
+ 
+funkyTab:AddButton({
+    Name = "Auto play Funky Friday ",
+    Callback = function()
+        print("Ativando...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/dcyuEgyK"))()
+    end
+})
+ 
+-- "Misc" Tab
+local configTab = Window:MakeTab({
+    Name = "Misc",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+ 
+local configSection = configTab:AddSection({
+    Name = "Misc Section"
+})
+ 
+configTab:AddButton({
+    Name = "Key Board Script",
+    Callback = function()
+        print("Ativando Ghub Key Board Script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/e2v27GA8", true))()
+    end
+})
+ 
+configTab:AddButton({
+    Name = "Dex Explorer",
+    Callback = function()
+        print("Ativando Dex Explorer Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/DEX-Explorer/main/Mobile.lua"))()
+    end
+})
+ 
+configTab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        print("Ativando Infinite Yield Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end
+})
+ 
+configTab:AddButton({
+    Name = "Fly Fe Script",
+    Callback = function()
+        print("Ativando Leitor de Coordenadas script...")
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+    end
+})
+ 
+configTab:AddButton({
+    Name = "Remote Spy",
+    Callback = function()
+        print("Ativando Remote Spy Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+    end
+})
+ 
+configTab:AddButton({
+    Name = "Coordinate reader",
+    Callback = function()
+        print("Ativando Leitor de Coordenadas script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/iczGZEjc"))()
+    end
+})
+ 
+configTab:AddButton({
+    Name = "CFrame Checker",
+    Callback = function()
+        print("Ativando Leitor de Coordenadas script...")
+        loadstring(game:HttpGet("https://pastebin.com/raw/xShraXCs"))()
+    end
+})
+
+local FishTab = Window:MakeTab({
+    Name = "Fish",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local FishSection = FishTab:AddSection({
+    Name = "Fish Section"
+})
+
+FishTab:AddButton({
+    Name = "BonkHub ",
+    Callback = function()
+        print("Ativando Fish Uppercut Script...")
+        loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
+    end
+})
+
+FishTab:AddButton({
+    Name = "Switch Hub ",
+    Callback = function()
+        print("Ativando Fish Uppercut Script...")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/refs/heads/main/Fisch.lua"))()
+    end
+})
