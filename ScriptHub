@@ -9,6 +9,24 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
+-- SA Boss Helper Tab
+local SATab = Window:MakeTab({
+    Name = "SA Boss Helper",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local SASection = SATab:AddSection({
+    Name = "Stands awaking Section"
+})
+
+SATab:AddButton({
+    Name = "SA Boss Helper Script",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno/08142f5310d688772d1f0303a551563184374100/Ameno_Script"))()
+    end    
+})
+
 -- Blox Fruits Tab
 local BFTab = Window:MakeTab({
     Name = "Blox Fruits",
