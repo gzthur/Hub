@@ -329,6 +329,25 @@ FishTab:AddButton({
     end
 })
 
+-- Doors Tab
+local DrsTab = Window:MakeTab({
+    Name = "Doors",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local DrsSection = DrsTab:AddSection({
+    Name = "Doors Section"
+})
+
+Drs:AddButton({
+	Name = "ExolutionPremiumHub",
+	Callback = function()
+      		print("Ativando Doors Script...")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
+  	end    
+})
+
 -- "Misc" Tab
 local configTab = Window:MakeTab({
     Name = "Misc",
