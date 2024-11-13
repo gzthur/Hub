@@ -28,6 +28,14 @@ SATab:AddButton({
     end    
 })
 
+SATab:AddButton({
+	Name = "SA Boss Helper 2",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
+  	end    
+})
+
 -- Blox Fruits Tab
 local BFTab = Window:MakeTab({
     Name = "Blox Fruits",
