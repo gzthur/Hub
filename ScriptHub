@@ -24,6 +24,7 @@ SATab:AddButton({
     Name = "SA Boss Helper Script",
     Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno/08142f5310d688772d1f0303a551563184374100/Ameno_Script"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno_x/2b7b8828652ba7ab3dd2903f34d988419dfbfe76/ameno_x"))()
     end    
 })
 
