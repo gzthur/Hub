@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "GzHub Version.01", HidePremium = false, SaveConfig = true, ConfigFolder = "GzHub"})
 
@@ -427,3 +427,5 @@ configTab:AddButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/xShraXCs"))()
     end
 })
+
+OrionLib:Init()
