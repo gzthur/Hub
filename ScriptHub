@@ -9,31 +9,63 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
--- SA Boss Helper Tab
-local SATab = Window:MakeTab({
-    Name = "SA Boss Helper",
+-- Grow A Gardem Tab
+local GAGTab = Window:MakeTab({
+    Name = "Grow A Gardem",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
-local SASection = SATab:AddSection({
-    Name = "Stands awaking Section"
+local GAGSection = GAGTab:AddSection({
+    Name = "Grow Section"
 })
 
-SATab:AddButton({
-    Name = "SA Boss Helper Script",
+GAGTab:AddButton({
+    Name = "Nat Hub",
     Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno/08142f5310d688772d1f0303a551563184374100/Ameno_Script"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno_x/2b7b8828652ba7ab3dd2903f34d988419dfbfe76/ameno_x"))()
+            print("Ativando Script Gz Hub..")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/INF-Hub-PL/INF-HUBV4.3/refs/heads/main/GrowaGarden-PetSpawner"))()
     end    
 })
 
-SATab:AddButton({
-	Name = "SA Boss Helper 2",
-	Callback = function()
-      		print("button pressed")
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
-  	end    
+GAGTab:AddButton({
+    Name = "Limit Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FalcnHub..."))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Speed Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/universal-roblox/Gag/refs/heads/main/Speed%20Hub%20X.lua"))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Rifton Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://rifton.top/loader.lua"))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Space Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/Multi'))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Thantzy Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+    end    
 })
 
 -- Blox Fruits Tab
@@ -428,63 +460,31 @@ configTab:AddButton({
     end
 })
 
--- Grow A Gardem Tab
-local GAGTab = Window:MakeTab({
-    Name = "Grow A Gardem",
+-- SA Boss Helper Tab
+local SATab = Window:MakeTab({
+    Name = "SA Boss Helper",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
-local GAGSection = GAGTab:AddSection({
-    Name = "Grow Section"
+local SASection = SATab:AddSection({
+    Name = "Stands awaking Section"
 })
 
-GAGTab:AddButton({
-    Name = "Nat Hub",
+SATab:AddButton({
+    Name = "SA Boss Helper Script",
     Callback = function()
-            print("Ativando Script Gz Hub..")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/INF-Hub-PL/INF-HUBV4.3/refs/heads/main/GrowaGarden-PetSpawner"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno/08142f5310d688772d1f0303a551563184374100/Ameno_Script"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Gabiruvei/Ameno_x/2b7b8828652ba7ab3dd2903f34d988419dfbfe76/ameno_x"))()
     end    
 })
 
-GAGTab:AddButton({
-    Name = "Limit Hub",
-    Callback = function()
-            print("Ativando Script Gz Hub..")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FalcnHub..."))()
-    end    
-})
-
-GAGTab:AddButton({
-    Name = "Speed Hub",
-    Callback = function()
-            print("Ativando Script Gz Hub..")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/universal-roblox/Gag/refs/heads/main/Speed%20Hub%20X.lua"))()
-    end    
-})
-
-GAGTab:AddButton({
-    Name = "Rifton Hub",
-    Callback = function()
-            print("Ativando Script Gz Hub..")
-loadstring(game:HttpGet("https://rifton.top/loader.lua"))()
-    end    
-})
-
-GAGTab:AddButton({
-    Name = "Space Hub",
-    Callback = function()
-            print("Ativando Script Gz Hub..")
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/Multi'))()
-    end    
-})
-
-GAGTab:AddButton({
-    Name = "Thantzy Hub",
-    Callback = function()
-            print("Ativando Script Gz Hub..")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
-    end    
+SATab:AddButton({
+	Name = "SA Boss Helper 2",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
+  	end    
 })
 
 OrionLib:Init()
