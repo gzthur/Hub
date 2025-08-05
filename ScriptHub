@@ -428,4 +428,23 @@ configTab:AddButton({
     end
 })
 
+-- Grow A Gardem Tab
+local GAGTab = Window:MakeTab({
+    Name = "Grow A Gardem",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local GAGSection = GAGTab:AddSection({
+    Name = "Grow A Gardem Section"
+})
+
+GAGTab:AddButton({
+    Name = "Grow A Gardem Script",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/INF-Hub-PL/INF-HUBV4.3/refs/heads/main/GrowaGarden-PetSpawner"))()
+    end    
+})
+
 OrionLib:Init()
