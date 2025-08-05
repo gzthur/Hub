@@ -455,4 +455,36 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FalcnHub..."))()
     end    
 })
 
+GAGTab:AddButton({
+    Name = "Speed Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/universal-roblox/Gag/refs/heads/main/Speed%20Hub%20X.lua"))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Rifton Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://rifton.top/loader.lua"))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Space Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/Multi'))()
+    end    
+})
+
+GAGTab:AddButton({
+    Name = "Thantzy Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+    end    
+})
+
 OrionLib:Init()
