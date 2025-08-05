@@ -440,7 +440,7 @@ local GAGSection = GAGTab:AddSection({
 })
 
 GAGTab:AddButton({
-    Name = "Grow A Gardem Script",
+    Name = "Nat Hub",
     Callback = function()
             print("Ativando Script Gz Hub..")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/INF-Hub-PL/INF-HUBV4.3/refs/heads/main/GrowaGarden-PetSpawner"))()
