@@ -447,4 +447,12 @@ GAGTab:AddButton({
     end    
 })
 
+GAGTab:AddButton({
+    Name = "Limit Hub",
+    Callback = function()
+            print("Ativando Script Gz Hub..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FalcnHub..."))()
+    end    
+})
+
 OrionLib:Init()
