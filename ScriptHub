@@ -436,7 +436,7 @@ local GAGTab = Window:MakeTab({
 })
 
 local GAGSection = GAGTab:AddSection({
-    Name = "Grow A Gardem Section"
+    Name = "Grow Section"
 })
 
 GAGTab:AddButton({
